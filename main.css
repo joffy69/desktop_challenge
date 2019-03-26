@@ -1,12 +1,26 @@
+html, body {
+    margin: 0%;
+    padding: 0%;
+}
+
 section {
     float: left;
     border-radius: 25px;
     background-color: #888888;
     height: 100%;
     width: 100%;
-    margin: 10px;
+    /*margin: 10px;*/
     
 }
 @media (max-width: 991px) {
-    
+    section {
+        background-color: #333333;
+    }
+}
+
+@media (max-width: 767px) {
+    section {
+        background-color: red;
+        width: 30%;
+    }
 }
